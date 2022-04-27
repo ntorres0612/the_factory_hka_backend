@@ -5,7 +5,7 @@ const notification = require('../utils/notification');
 const fn = require('../utils/fn');
 
 router.get('/', function (req, res, next) {
-  res.render('index', { title: 'Maxigiros service printer' });
+  res.render('index', { title: 'Server running...' });
 });
 
 router.post('/events', async (req, res, next) => {
